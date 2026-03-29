@@ -5,7 +5,7 @@
 //  server for a newer firmware version, and flashes
 //  itself automatically — no USB or Arduino IDE needed.
 //
-//  GitHub: your-username/esp32-wireless-ota
+//  GitHub: https://github.com/AnuragShirodkar/ESP32-OTA-firmware-updater
 // ═══════════════════════════════════════════════════
 
 #include <WiFi.h>
@@ -14,8 +14,8 @@
 #include <ArduinoOTA.h>
 
 // ── Wi-Fi Credentials ────────────────────────────
-const char* ssid         = "YOUR_WIFI_SSID";
-const char* password     = "YOUR_WIFI_PASSWORD";
+const char* ssid         = "Airtel_m000_6317"; //YOUR_WIFI_SSID
+const char* password     = "Air@59781"; //YOUR_WIFI_PASSWORD
 
 // ── ArduinoOTA (IDE wireless upload) ─────────────
 const char* ota_hostname = "Annis-ESP32";
